@@ -60,6 +60,7 @@ main > .main-card-title> .main-card > .card > .card-body > a{
     color: rgb(110, 155, 199);
     line-height: 25px;
     font-size: 15px;
+    font-family: "Khmer", sans-serif;
 }
 main > .main-card-title> .main-card > .card > .card-body:hover > a{
     color: aliceblue;
