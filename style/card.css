@@ -29,12 +29,14 @@ main > .main-card-title > .title > p{
 main > .main-card-title > .main-card {
     display: flex;
     gap: 20px;
+    overflow-x: auto;
     width: 100%;
     padding: 50px 0px;
 
 }
 main > .main-card-title> .main-card > .card  {
     width: 310px;
+    flex: 0 0 auto;
     height: 350px;
     border-radius: 10px;
     overflow: hidden;
@@ -43,7 +45,7 @@ main > .main-card-title> .main-card > .card  {
 }
 main > .main-card-title> .main-card > .card > .card-header {
     width: 100%;
-    height: 60%;
+    height: 65%;
 
 }
 main > .main-card-title> .main-card > .card > .card-header > img{
@@ -52,12 +54,12 @@ main > .main-card-title> .main-card > .card > .card-header > img{
 }
 main > .main-card-title> .main-card > .card > .card-body {
     width: 100%;
-    height: 40%;
+    height: 35%;
     padding: 20px;
 }
 main > .main-card-title> .main-card > .card > .card-body > a{
     text-decoration: none;
-    color: rgb(110, 155, 199);
+    color: rgb(122, 172, 222);
     line-height: 25px;
     font-size: 15px;
     font-family: "Khmer", sans-serif;
@@ -65,4 +67,35 @@ main > .main-card-title> .main-card > .card > .card-body > a{
 main > .main-card-title> .main-card > .card > .card-body:hover > a{
     color: aliceblue;
     text-decoration: underline;
+}
+main >.main-card-title > .main-img  {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 40px 0px;
+    
+}
+
+main >.main-card-title > .main-img > .img > img{
+    width: 550px;
+    border-radius: 10px;
+}
+main >.main-card-title > .main-img > .img > a{
+    display: flex;
+    justify-content: center;
+    color: rgb(82, 131, 174);
+    align-items: center;
+    font-size: 17px;
+    font-weight: bolder;
+    padding-top: 20px;
+    text-decoration: none;
+}
+main >.main-card-title > .main-img > .img > a > i{
+    padding-left: 10px;
+    text-decoration: none;
+}
+main >.main-card-title > .main-img > .img:hover > a,
+main >.main-card-title > .main-img > .img:hover > a > i{
+    text-decoration: underline;
+    color: aliceblue;
 }
